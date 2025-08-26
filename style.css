@@ -170,13 +170,16 @@ img {
     overflow: hidden;
     text-align:inherit;
 }
+.container{
+    width: 100%;
+    overflow-x: auto;
+    
+}
 table{
-    overflow: hidden;
-    overflow-x:auto;
     border-color: rgb(54, 4, 4);
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 300px;
     left: 25%;
     bottom: 30%;
 }
