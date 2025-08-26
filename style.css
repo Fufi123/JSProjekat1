@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    color: black;
+    min-height: 100vh;
+}
+#index {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar {
+    background-color:burlywood;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: aquamarine;
+}
+footer {
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;
+}
+
+#index2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+#index2 li {
+    margin: 0px 15px;
+}
+
+#index2 li a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#index2 li a:hover {
+    color: magenta;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100vh;
+    height: auto;
+    border-radius: 45px;
+    animation-name: ugabuga;
+    animation-duration: 3s;
+}
+@keyframes ugabuga {
+    0%{
+        opacity: 0%;
+    }
+    15%{
+        opacity: 15%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    40%{
+        opacity: 40%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    60%{
+        opacity: 60%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    85%{
+        opacity: 85%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #index2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #index {
+        width: 80%;
+    }
+
+    img {
+        width: 80%;
+    }
+    @media (max-width: 1000px){
+        table{
+            position:static;
+            width: 90%;
+            margin: 20px auto;
+        }
+        #mm, #tekstt {
+            position: static;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+#about1{
+    text-shadow: 70px black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#hehe{
+    text-align: center;
+    text-decoration: wavy;
+}
+#button{
+    background-color: rgb(89, 0, 255);
+    color: white;
+
+}
+#button:hover{
+    background-color: aquamarine;
+    transition: 0.6s;
+    color: black;
+    cursor: pointer;
+}
+#drinks1{
+    overflow: hidden;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+#drinks2{
+    overflow: hidden;
+    text-align:inherit;
+}
+table{
+    overflow: hidden;
+    border-color: rgb(54, 4, 4);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 25%;
+    bottom: 30%;
+}
+#drinklink{
+    overflow: hidden;
+    padding-left: 10px;
+}
+#drinklink a:hover{
+    color:cadetblue;
+    transition: 0.3s;
+}
+#drinkk{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+.tekst{
+    text-align: center;
+    padding: 10px 20px;
+}
+#mm{
+    display: flex;
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    font-size: 30px;
+}
+i{
+    padding: 15px;
+}
+.slike{
+    display: flex;
+    position: absolute;
+    left: 20%;    
+}
+.slicice{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+}
+#tekstt{
+    display: flex;
+    position: absolute;
+    left: 550px;
+    top: 300px;
+}
+#grapes{
+    margin-top: 15px;
+}
+#spirits{
+    margin-top: 15px;
+
+}
